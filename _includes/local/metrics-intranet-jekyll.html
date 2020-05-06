@@ -1,0 +1,27 @@
+<div id="metrics">
+	<!-- Begin Adobe Analytics code version: JS-2.0 -->
+	<script src="https://www.cdc.gov/JScript/metrics/topic_levels_intranet.js"></script>
+	<script src="https://www.cdc.gov/JScript/metrics/adobe/analytics_cdcintranet.js"></script>
+	<script>
+		// Only property being set for Intranet report suite.
+		s.pageName = document.title;
+		s.server = window.location.hostname;
+
+		// Update the level variables here.
+		updateVariables(s);
+
+		// Set the referrer value if passed on the querystring from a CDC page-level redirect.
+		var refParam = s.Util.getQueryParam('CDC_AA_refVal');
+		if ( refParam && 0 < refParam.length ) {
+		  s.referrer = refParam;
+		}
+	</script>
+
+	<noscript>
+        <a href="https://www.adobe.com">
+			<img src="https://cdc.112.2o7.net/b/ss/cdcintranet/1/H.21--NS/01/H.21--NS/0" height="1" width="1" alt="Web Analytics" />
+		</a>
+	</noscript>
+	<!--/DO NOT REMOVE/-->
+	<!-- End Adobe Analytics code version: JS-2.0 -->
+</div>

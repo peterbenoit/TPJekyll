@@ -3,21 +3,26 @@
 <!DOCTYPE html>
 <html lang="en-us" class="intranet theme-cyan " >
 <head>
-	{% include head-content.html" -->	<title><!--#include virtual="/cdcweb/wcms-inc/localBrowserTitle_TP4.html" --> Web</title>
-					<meta name="robots" content="index, archive" />		<meta property="cdc:template_version" content="4.0"/>
+    {% include global/header/head-content-jekyll.html %}
+    <title><!--#include virtual="/cdcweb/wcms-inc/localBrowserTitle_TP4.html" --> Web</title>
+    <meta name="robots" content="index, archive" />
+    <meta property="cdc:template_version" content="4.0"/>
 	<meta property="cdc:last_updated" content="March 22, 2019"/>
 	<meta property="cdc:last_reviewed" content="March 22, 2019"/>
 	<meta property="cdc:content_source" content="OFFICE OF THE ASSOCIATE DIRECTOR FOR COMMUNICATION"/>
 	<meta property="cdc:maintained_by" content="DIGITAL MEDIA BRANCH"/>
 	<meta property="cdc:content_id" content="1259" />
-			<link rel="canonical" href="http://intranet.cdc.gov/cdcweb/web.html"/>	<meta property="cdc:wcms_build" content="4.8.2 - b.1827" />
-		<!--#include virtual="/cdcweb/wcms-inc/localAdditionalHeadIncludes_TP4.html" -->				<!-- CSS Added Dynamically Here -->		<meta name="DC.date" content="2019-03-21T12:30:58Z/">
+    <link rel="canonical" href="http://intranet.cdc.gov/cdcweb/web.html"/>
+    <meta property="cdc:wcms_build" content="4.8.2 - b.1827" />
+    <!--#include virtual="/cdcweb/wcms-inc/localAdditionalHeadIncludes_TP4.html" -->
+    <!-- CSS Added Dynamically Here -->
+    <meta name="DC.date" content="2019-03-21T12:30:58Z/">
 
-		<style>
-		.input-loading {
-			background: transparent url('https://wcms-wp-intra.cdc.gov/cdcweb/wp-content/themes/cdc-gov//images/loading.gif') no-repeat scroll right center content-box;
-			background-size: auto 160%;
-		}
+    <style>
+    .input-loading {
+        background: transparent url('https://wcms-wp-intra.cdc.gov/cdcweb/wp-content/themes/cdc-gov//images/loading.gif') no-repeat scroll right center content-box;
+        background-size: auto 160%;
+    }
 	</style>
 
 	</head>
@@ -29,156 +34,109 @@
 		<a class="skippy d-none d-md-block d-lg-none sr-only-focusable" href="#az-medium">Skip directly to A-Z link</a>
 		<a class="skippy d-md-none sr-only-focusable" href="#az-small">Skip directly to A-Z link</a>
 	</div>
-		<!--#include virtual="/cdcweb/wcms-inc/localBodyTop_TP4.html" -->	{% include global-alert.html" -->
-	{% include header-intranet-v2.html" --><!--#include virtual="/wcms-inc/nav-intranet.html" -->		<div class="container-fluid site-title bg-cyan-t bb-1 bb-secondary site-title-intranet">
+        <!--#include virtual="/cdcweb/wcms-inc/localBodyTop_TP4.html" -->
+        {% include global/body/global-alert.html %}
+        {% include global/header/header-intranet-v2.html %}
+        <!--#include virtual="/wcms-inc/nav-intranet.html" -->
+        <div class="container-fluid site-title bg-cyan-t bb-1 bb-secondary site-title-intranet">
 			<div class="container">
-					<div class="row">
-		<div class="col">
-			<div class="display-6 text-white fw-500 pt-1 pb-1">
-				<a href="/cdcweb/index.html">Digital Media at CDC</a>
-			</div>
+				<div class="row">
+		            <div class="col">
+			            <div class="display-6 text-white fw-500 pt-1 pb-1">
+				            <a href="/cdcweb/index.html">Digital Media at CDC</a>
+			            </div>
 					</div>
-			</div>
-				</div>
+			    </div>
+            </div>
 		</div>
 
 	<nav role="navigation" aria-label="Mobile Nav" id="mobilenav" class="sticky-top">
-		{% include nav-mobile.html" -->	</nav>
+        {% include local/nav-mobile.html %}
+    </nav>
 
-				<div class="container breadcrumb-share">
-							<div class="d-none d-lg-block">
+        <div class="container breadcrumb-share">
+            <div class="d-none d-lg-block">
 				<div class="row">
 					<div class="col-sm-9">
-						<!-- Breadcrumbs -->
-							<nav role="navigation" aria-label="Breadcrumb" class="d-none d-lg-block breadcrumbs">
-		<ol class="breadcrumb">
+                    <!-- Breadcrumbs -->
+                        <nav role="navigation" aria-label="Breadcrumb" class="d-none d-lg-block breadcrumbs">
+                            <ol class="breadcrumb">
 
-		</ol>
-	</nav>
-						</div>
-									</div>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
 			</div>
-						</div>
+        </div>
 
 	<div class="container-fluid feature-area">
 		<div class="container"></div>	</div>
 
 		<!-- Page Content Wrap -->
 		<div class="container d-flex flex-wrap body-wrapper bg-white">
-		<!-- Content -->
-		<main class="col-lg-9 order-lg-2" role="main" aria-label="Main Content Area">
-			<div class="row visual-element">
-				<div class="col">
-					<!-- Visual Element, this is what was the site identity in TP3 -->
-					<!--#include virtual="/cdcweb/wcms-inc/localVisualElement_TP4.html" -->									</div>
-			</div>
-			<div class="section-nav-area">
-				<nav role="navigation" aria-label="Section Nav" class="w-100 sticky-top">
-					<!-- Page Title/Section Nav (mobile) -->
-				</nav>
-			</div>
+            <!-- Content -->
+            <main class="col-lg-9 order-lg-2" role="main" aria-label="Main Content Area">
+                <div class="row visual-element">
+                    <div class="col">
+                        <!-- Visual Element, this is what was the site identity in TP3 -->
+                        <!--#include virtual="/cdcweb/wcms-inc/localVisualElement_TP4.html" -->
+                    </div>
+                </div>
+                <div class="section-nav-area">
+                    <nav role="navigation" aria-label="Section Nav" class="w-100 sticky-top">
+                        <!-- Page Title/Section Nav (mobile) -->
+                    </nav>
+                </div>
 
-			<div class="row">
-								<div class="col content ">
-					<h1 id="content">Web</h1>																									<div class="mb-3 card tp-related-pages fourth-level-nav d-none">
-						<div class="card-header collapse-icon">
-							<a class="collapse-link float-right nav-minus fs0875" data-toggle="collapse" href="#collapse_12595c95219d6a7c3" aria-expanded="false" aria-controls="collapse_12595c95219d6a7c3">
-								<svg viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<title>Minus</title>
-									<path d="M19,13H5V11H19V13Z">
-									</path>
-								</svg>
-							</a>
-							<div class="h4">Related Pages</div>
-						</div>
-						<div class="card-body collapse show" id="collapse_12595c95219d6a7c3">
-						</div>
-					</div>
-					<div class="row"><div class="col-md-12"><div class="card bt-3 bt-primary ds-5 mb-3"><div class="card-header h4 bg-white">Digital First</div><div class="card-body bg-white"><div class="w-md-col4 float-md-right cr ml-md-3 d-inline-block pt-2"><img src="/cdcweb/media/2017/02/iphones-intranet-1.jpg" class="img-fluid" alt="iPhones"></div>
-<p><strong>Digital First is recognizing that more than half of visitors to CDC.gov come on mobile devices first. </strong></p>
-<p><span id="ms-rterangecursor-start"></span>Digital First thinking can improve your web and social media efforts and provide other benefits, like helping you free content and engaging images from PDFs and elevate them to your web pages (HTML) using CDC&rsquo;s responsive design web templates, motion graphics, and video.</p>
-</div><div class="card-footer bt-0 pt-0 bg-white"><a href="/cdcweb/web/digital-first.html" class="btn btn-primary specialLinkIconLeft">Learn More</a></div></div><div class="card mb-3"></div></div></div><div class="row"><div class="col-md-12"><div class="card bt-3 bt-purple-p ds-5 mb-3"><div class="card-header h4 bg-white">Web Resources</div><div class="card-body bg-white"><ul class="mb-0 cc-md-2 lsp-out bullet-list">
-<li><a href="/cdcweb/web/blogs.html">Blogs</a></li>
-<li><a href="/cdcweb/web/content-syndication.html">Content Syndication</a></li>
-<li><a href="/cdcweb/web/digital-first.html">Digital First</a></li>
-<li><a href="/cdcweb/web/domains-subwebs.html">Domains, Subwebs &amp; URLs</a></li>
-<li><a href="/cdcweb/web/forms.html">Email Forms</a></li>
-<li><a href="/cdcweb/web/getting-started.html">Subscription Email Updates</a></li>
-<li><a href="/cdcweb/web/images.html">Images</a></li>
-<li><a href="/cdcweb/web/metrics.html">Metrics</a></li>
-<li><a href="/cdcweb/web/multilingual.html">Multilingual</a></li>
-<li><a href="/cdcweb/web/a-z-index.html">Search &amp; A-Z Index</a></li>
-<li><a href="/cdcweb/web/seo.html">SEO</a></li>
-<li><a href="/cdcweb/web/trainings.html">Training</a></li>
-<li><a href="/cdcweb/web/ux-overview.html">UX</a></li>
-<li><a href="/cdcweb/web/videos.html">Videos</a></li>
-<li><a href="/cdcweb/web/wcms.html">WCMS &amp; Templates</a></li>
-<li><a href="/cdcweb/web/widgets.html">Widgets</a></li>
-<li><a href="/cdcweb/508-accessibility.html">508 Accessibility</a></li>
-</ul>
-</div></div><div class="card mb-3"><div class="card-header h4 bg-gray-l1">Governance</div><div class="card-body bg-gray-l1"><ul class="bullet-list">
-<li><a href="/cdcweb/councils-workgroups/cdc-gov-council.html">CDC Web Council</a></li>
-<li><a href="/cdcweb/councils-workgroups/social-media-council.html">CDC Social Media Council</a></li>
-<li><a href="/cdcweb/councils-workgroups/workgroupscop.html">Workgroups &amp; CoPs</a></li>
-</ul>
-</div></div><div class="card bt-3 bt-purple-p ds-5 mb-3"><div class="card-header h4 bg-white">Related Resources</div><div class="card-body bg-white"><ul class="mb-0 cc-md-2 lsp-out bullet-list">
-<li><a href="http://isp-v-maso-apps.cdc.gov/Policy/Doc/policy537.pdf" target="new">CDC Web Policy<span class="sr-only">Cdc-pdf</span><svg class="x16" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#cdc-pdf" xlink:href="#cdc-pdf"></use></svg><span class="file-details"></span></a></li>
-<li><a href="http://brandidentitystandards.cdc.gov/">Brand Identity Standards</a></li>
-<li><a class="tp-link-policy" href="http://www.youtube.com/CDCstreamingHealth">CDC Streaming Health</a> YouTube Channel</li>
-<li><a href="https://www.cdc.gov/ccindex/index.html">Clear Communication Index </a></li>
-<li><a class="tp-link-policy" href="https://www.cdc.gov/socialmedia/data/index.html">Social Media Data&nbsp;&amp; Metrics</a></li>
-<li><a href="http://intra-apps.cdc.gov/createit/createit4/default.asp">Graphics &amp; Broadcast Services</a></li>
-<li><a href="http://intranet.cdc.gov/ocio/information-systems-security/">Information &amp; Systems Security</a></li>
-<li><a href="/oadc/create-it/mls.html">Multilingual Services</a></li>
-<li><a href="http://www.plainlanguage.gov/" class="tp-link-policy" data-domain-ext="gov">PlainLanguage.gov<span class="sr-only">External</span><svg class="x16" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use href="#external" xlink:href="#external"></use></svg></a></li>
-<li><a href="https://phil.cdc.gov/phil/home.asp">Public Health Image Library (PHIL)</a></li>
-<li><a class="tp-link-policy" href="http://tools.cdc.gov/" shape="rect">Public Health Media Library (PHML)</a></li>
-</ul>
-</div></div></div></div>
-									</div>
-			</div>
+                <div class="row">
+                    <div class="col content ">
+                        {{ content }}
+                    </div>
+                </div>
 
 
-							<div class="row d-none d-lg-block">
-					<div class="col pca">
-						<!-- Persistent Content Area Here -->
-						<!--#include virtual="/cdcweb/wcms-inc/localPersistentContentArea_TP4.html" -->											</div>
-				</div>
-								<div class="row">
-					<div class="col last-reviewed">
-						Page last reviewed:  <span id="last-reviewed-date">March 22, 2019</span>						<div class="d-none d-lg-block content-source">Content source:  <!--#include virtual="/cdcweb/wcms-inc/localContentSource_TP4.html" --></div>
-					</div>
-				</div>
-						</main>
-		<!-- Left / Bottom Nav -->
-			<div class="col-lg-3 order-lg-1 leftnav-wrapper">
-		<!-- include virtual="/TemplatePackage/4.0/includes/nav-main.html" -->
-		<nav role="navigation" aria-label="Left Navigation Menu">
-            <!--#include virtual="/cdcweb/web/wcms-inc/localLeftNav_TP4.html" -->
-        </nav>
-		<div class="col-12 mt-5">
-            <!--#include virtual="/cdcweb/wcms-inc/localGovDelivery_TP4.html" -->
-            <!--#include virtual="/cdcweb/wcms-inc/localUnderNav_TP4.html" -->
-            <div class="d-none d-lg-block">
-                <!--#include virtual="/cdcweb/wcms-inc/localUnderNavDesktop_TP4.html" -->
+                <div class="row d-none d-lg-block">
+                    <div class="col pca">
+                        <!-- Persistent Content Area Here -->
+                        <!--#include virtual="/cdcweb/wcms-inc/localPersistentContentArea_TP4.html" -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col last-reviewed">
+                        Page last reviewed:  <span id="last-reviewed-date">March 22, 2019</span>
+                        <div class="d-none d-lg-block content-source">Content source:  <!--#include virtual="/cdcweb/wcms-inc/localContentSource_TP4.html" --></div>
+                    </div>
+                </div>
+            </main>
+            <!-- Left / Bottom Nav -->
+            <div class="col-lg-3 order-lg-1 leftnav-wrapper">
+                <!-- include virtual="/TemplatePackage/4.0/includes/nav-main.html" -->
+                <nav role="navigation" aria-label="Left Navigation Menu">
+                    <!--#include virtual="/cdcweb/web/wcms-inc/localLeftNav_TP4.html" -->
+                </nav>
+                <div class="col-12 mt-5">
+                    <!--#include virtual="/cdcweb/wcms-inc/localGovDelivery_TP4.html" -->
+                    <!--#include virtual="/cdcweb/wcms-inc/localUnderNav_TP4.html" -->
+                    <div class="d-none d-lg-block">
+                        <!--#include virtual="/cdcweb/wcms-inc/localUnderNavDesktop_TP4.html" -->
+                    </div>
+                </div>
             </div>
         </div>
-	</div>
-		</div>
 		<footer role="contentinfo" aria-label="Footer">
 			<div class="footer-intranet">
                 <!--#include virtual="/cdcweb/wcms-inc/localIntranetSiteFooter_TP4.html" -->
-                {% include footer-intranet-bottom.html %}
+                {% include global/footer/footer-intranet-bottom.html %}
             </div>
         </footer>
-        {% include metrics-intranet.html %}
-        {% include scripts.html %}
-        {% include svg-symbols.html %}
-        {% include svg-round-social.html %}
-        {% include svg-white-social.html %}
-        {% include svg-audio.html %}
-        {% include svg-other.html %}
-        {% include svg-intranet-symbols.html %}
+        {% include local/metrics-intranet-jekyll.html %}
+        {% include global/footer/scripts-jekyll.html %}
+        {% include global/SVG/svg-symbols.html %}
+        {% include global/SVG/svg-round-social.html %}
+        {% include global/SVG/svg-white-social.html %}
+        {% include global/SVG/svg-audio.html %}
+        {% include global/SVG/svg-other.html %}
+        {% include global/SVG/svg-intranet-symbols.html %}
         <div class="syndicate"><svg style="display:none" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="cdc-pdf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>PDF</title>
     <path class="fill-pdf-1" d="M32.52,1H1.45V38.68h38V7.42Z" />
@@ -228,6 +186,6 @@
     window.CDC.tp4.public.appInit(window.pageOptions);
 </script>
 
-{% include page-bottom-extras.html %}</body>
+{% include global/body/page-bottom-extras.html %}</body>
 </html>
 
